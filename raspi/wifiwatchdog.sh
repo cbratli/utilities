@@ -1,5 +1,7 @@
 #!/bin/bash
 # Script can be added to crontab - sudo crontab -e
+#sudo ip link set wlan0 down
+#sudo ip link set wlan0 up
 res="error";
 sleep 120
 while true ; do
